@@ -1,0 +1,7 @@
+{
+  "name": "geraldoBot",
+  "description": "Bot do clan Eradicator Warframe",
+  "repository": "https://github.com/MSCunha/Geraldo",
+  "logo": "http://geraldobot.herokuapp.com/Geraldo_logo.png",
+  "keywords": ["bot", "Geraldo", "Eradicator"]
+}

@@ -4,7 +4,7 @@
   "description": "BOT do Clan Eradicator Warframe",
   "main": "index.js",
   "scripts": {
-    "test": "console.log('Testing, hello, testing!');"
+    "start": "node index.js"
   },
   "author": "Araiguma (Matheus Silva)",
   "license": "ISC",
