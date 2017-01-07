@@ -1,0 +1,14 @@
+{
+  "name": "geraldo_bot",
+  "version": "1.0.0",
+  "description": "BOT do Clan Eradicator Warframe",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('Testing, hello, testing!');"
+  },
+  "author": "Araiguma (Matheus Silva)",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.0.0"
+  }
+}
