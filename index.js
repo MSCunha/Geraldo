@@ -8,7 +8,7 @@ bot.on('message', (message) => {
         message.channel.sendMessage('polo!');
     }
     if(message.content == 'oquevocefaz?'){
-        message.channel.sendTTSMessage('Nada, ainda estou sendo criado :)');
+        message.sendTTSMessage('Nada, ainda estou sendo criado :)',{tts:true});
     }
     if(message.content == 'porquevoceficaoffline?'){
         message.channel.sendMessage('Eu tambem preciso dormir \n');
