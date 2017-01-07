@@ -7,13 +7,20 @@ bot.on('message', (message) => {
     if(message.content == 'marco?'){
         message.channel.sendMessage('polo!');
     }
-    if(message.content == 'oquevocefaz?'){
-        message.sendTTSMessage('Nada, ainda estou sendo criado :)',{tts:true});
+    if(message.content == 'qvcfaz?'){
+        message.channel.sendMessage('Nada, ainda estou sendo criado :)',{tts:true});
     }
-    if(message.content == 'porquevoceficaoffline?'){
+    if(message.content == 'pqvcficaoffline?'){
         message.channel.sendMessage('Eu tambem preciso dormir \n');
-        message.channel.sendMessage('--mentira, o servidor é gratuito e tem suas limitações-- "sshiii"');
+        message.channel.sendMessage('~~mentira, o servidor é gratuito e tem suas limitações~~ "sshiii"');
     }
     if(message.content == '!comandos'){
-        message.channel.sendMessage('1- marco?\n2- oquevocefaz?\n3- porquevoceficaoffline?\n')    }
-});
+        message.channel.sendMessage('1- marco?\n2- qvcfaz?\n3- pqvcficaoffline?\n')
+    }
+    if(message.content == '!S2'){
+        message.channel.react(':nightqualira:')
+    }
+    if(message.content == '!geraldo sai da pedra!'){
+        message.channel.sendFile('https://68.media.tumblr.com/1ab432141e6ecebe6f736622ceb761b5/tumblr_oa4cuwZbV71ukxlx4o1_500.gif')
+    }
+});    

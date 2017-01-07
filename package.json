@@ -11,14 +11,12 @@
   "dependencies": {
     "discord.js": "^11.0.0"
   },
-
   "engines": {
     "node": "^7.4.0"
   },
   "keywords": [
-      "bot",
-      "Geraldo",
-      "Eradicator"
-  ],
-  "license": "ISC"
+    "bot",
+    "Geraldo",
+    "Eradicator"
+  ]
 }
